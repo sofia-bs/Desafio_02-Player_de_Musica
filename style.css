@@ -1,0 +1,127 @@
+:root{
+    --fundo: #0F0D13;
+    --roxo-azulado: #2A2141;
+    --texto: #E1E1E6;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: var(--fundo);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 8px 8px 0px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: calc(20rem / 16);
+    padding: calc(20rem / 16);
+}
+
+.container-area .left-column {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+player {
+    border-radius: 9.603px;
+    background: var(--roxo-azulado);
+}
+
+.columns {
+    background-color: var(--roxo-azulado);
+    border-radius: calc(9.603rem / 16);
+    margin-top: calc(66rem / 16);
+    gap: calc(28.81rem / 16);
+}
+
+.left-column {
+    padding: calc(20rem / 16);
+    width: calc(266.48rem / 16);
+    padding: calc(38.412rem / 16);
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: calc(28.809rem / 16);
+    flex-shrink: 0;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: calc(50.416rem / 16);
+    align-self: stretch;
+    width: 100%;
+    height: auto;
+}
+
+.right-column {
+    padding: calc(28.81rem / 16);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: calc(28.809rem / 16);
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: calc(9.603rem / 16);
+    align-self: stretch;
+    justify-content: center;
+}
+
+.heading {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: var(--texto);
+    font-size: calc(24.007rem /16);
+    font-style: normal;
+    line-height: 100%;
+    display: inline;
+}
+
+.text {
+    font-family: 'Outfit', sans-serif;
+    font-size: calc(19.206rem / 16);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: var(--texto);
+    opacity: 0.67;
+    display: flex;
+    align-items: flex-start;
+}
+
+.image_and_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: calc(28.809rem / 16);
+}
+
+.image_and_text1 {
+    display: flex;
+    width: calc(187.258rem / 16);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: calc(9.603rem / 16);
+}
+
+.image2 {
+    width: calc(84.026rem / 16);
+    height: calc(84.026rem / 16);
+}
+
