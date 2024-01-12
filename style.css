@@ -125,3 +125,18 @@ player {
     height: calc(84.026rem / 16);
 }
 
+@media screen and (max-width: 800px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .left-column, .right-column {
+        grid-area: auto;
+        width: 100%;
+    }
+
+    .left-column {
+        margin-top: 130px;
+    }
+}
